@@ -2,7 +2,7 @@ exports.private = () =>{
 	return`Privet chat එකක භෘවිතා කරන්න`
 	}
 exports.wait = () => {
-    return `⏳ Download කරනකන් ටිකක් ඉන්න~`
+    return `⏳ සින්දුව හොයනවා ටිකක් ඉන්න~`
 }
 exports.ok = () => {
     return `✅ හරි. සාර්ථකයි~`
