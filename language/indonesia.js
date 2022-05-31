@@ -84,12 +84,12 @@ exports.videoLimit = () => {
 exports.notNum = (q) => {
     return `"${q}", අංකයක් නොවේ!`
 }
-exports.menunya = (pushname, botname) => {
+exports.menunya = (salam, pushname, botname) => {
 	return`ආයුබෝවන් ${pushname}, 
 	👋 මම ${botname}, මෙය WhatsApp Multi device Bot කෙනෙක්,
 	මොකක්හරි අව්ලක් තියේනම් මට කියන්න මම ඒක හදන්නම්🙏`
 }
-exports.listMenu = (time, pushname, prefix) => {
+exports.listMenu = (time, salam, pushname, prefix) => {
     return `*හලෝ ${pushname}*
 *⌚Time Server : ${time}*
 *📚 Buddhi-Md විධාන ලැයිස්තුව :*
