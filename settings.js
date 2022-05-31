@@ -42,17 +42,17 @@ global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutp
 global.prefa = ['','!','.','🐦','🐤','🗿']
 global.sp = '⭔'
 global.mess = {
-    sukses: '🤗Done, Ok Sucsess~',
-    admin: 'Perintah Ini Hanya Bisa Digunakan Oleh Admin !',
-    botAdmin: 'Perintah Ini Hanya Bisa Digunakan Ketika Bot Menjadi Admin !',
-    owner: 'Perintah Ini Hanya Bisa Digunakan Oleh Owner !',
-    group: 'Perintah Ini Hanya Bisa Digunakan Di Group !',
-    private: 'Perintah Ini Hanya Bisa Digunakan Di Private !',
-	bot: 'Fitur Khusus Pengguna Nomor Bot',
-    errtoimg: 'Maaf Saat Ini Belum Support Sticker Gif !',
-    wait: '⏳ Sedang Di Proses',
-	lockCmd: 'Fitur Tidak Diaktifkan Oleh Owner!',
-	example1: 'Selamat Datang @user Di Group @subject Jangan Lupa Baca Rules @desc\n\nNote :\n1. @user (Mention User Join)\n2. @bio (Get Bio User Join)\n3. @tanggal (Date Now)\n4. @desc (Get Description Group)\n5. @subject (Group Name)'
+    sukses: '🤗නිමයි, හරි සාර්ථකයි~',
+    admin: 'මෙම විධානය භාවිතා කල හැක්කේ Admin ට පමණි !',
+    botAdmin: 'මෙම විධානය භාවිතා කිරීමට Bot, Admin කෙනෙකු විය යුතුය !',
+    owner: 'මෙම විධානය භාවිතා කල හැක්කේ හිමිකරුට පමණී !',
+    group: 'මෙම විධානය භාවිතා කල හැක්කේ Group එකක් තුල පමණි !',
+    private: 'මෙම විධානය භාවිතා කල හැක්කේ Private Chat එකක් තුල පමණි !',
+	bot: 'මෙම විධානය භාවිතා කල හැක්කේ Bot අංකයෙන් පමණී ',
+    errtoimg: 'සමාවන්න දැනට Sticker Gif සඳහා සහය නොදක්වයි !',
+    wait: '⏳ සැකසෙමින් පවතී',
+	lockCmd: 'පරිපාලකා විසින් සක්‍රීය කර නැත!',
+	example1: 'ආයුබෝවන් @user අපේ Group එකට සාදරයෙන් පිලිගන්නවා @subject අපේ Group එක Share කරන්න අමතක කරන්න එපා @desc\n\nNote :\n1. @user (Mention User Join)\n2. @bio (Get Bio User Join)\n3. @tanggal (Date Now)\n4. @desc (Get Description Group)\n5. @subject (Group Name)'
 }
 
 let file = require.resolve(__filename)
