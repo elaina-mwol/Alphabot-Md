@@ -1,100 +1,98 @@
 exports.private = () =>{
-	return`Fitur hanya bisa di gunakan di private chat`
+	return`Privet chat එකක භෘවිතා කරන්න`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu sebentar~`
+    return `⏳ Download කරනකන් ටිකක් ඉන්න~`
 }
 exports.ok = () => {
-    return `✅ Done. Ok desu~`
+    return `✅ හරි. සාර්ථකයි~`
 }
 
 exports.err = () => {
-    return `⚠️ Fitur Sedang Error`
+    return `⚠️ විශේෂාංගයේ දෝෂයක්`
 }
 exports.erorLink = () => {
-    return `⚠️ Link nya error`
+    return `⚠️ නිවැරදි Link ඇතුලත් කරන්න`
 }
 exports.media = () => {
-    return `Silahkan pilih media yang ingin kamu download`
+    return `ඔබට අවශ්‍ය මාධ්‍ය තෝරන්න`
 }
 exports.replyImg = (prefix, command) => {
-    return `Kirim/Reply Foto Dengan Caption ${prefix + command}`
+    return `ඡායාරූපයක් Mention කරන්න ${prefix + command}`
 }
 
 exports.wrongFormat = (prefix) => {
-    return `Format salah ❎ Silakan cek cara penggunaan di *${prefix}allmenu*.`
+    return `වැරදියි❎ විධානය නැවත බලන්න *${prefix}allmenu*.`
 }
 
 exports.emptyMess = () => {
-    return `❎ Harap masukkan pesan yang ingin disampaikan!`
+    return `❎ ඔබට අවශ්‍ය පණිවිඩය ලියන්න!`
 }
 
 exports.cmdNotFound = (cmd, prefix) => {
-    return `❎ Command *${cmd}* tidak terdaftar di *${prefix}allmenu*`
+    return `❎  *${cmd}* මෙම විධෘනය ලැයිස්තුවේ නැත *${prefix}allmenu*`
 }
 
 exports.ownerOnly = () => {
-    return `❎ Command ini khusus Owner`
+    return `❎ පරිපාලකයාට පමණි`
 }
 
 exports.doneOwner = () => {
-    return `✅  ️Sudah selesai, Owner ~`
+    return `✅  ️සාර්ථකයි, උතුමානෙනි ~`
 }
 
 exports.groupOnly = () => {
-    return `👥  Command ini hanya bisa digunakan di dalam grup!`
+    return `👥  Grop එක තුල පමණයි!`
 }
 
 exports.adminOnly = () => {
-    return `🙅  Command ini hanya bisa digunakan oleh admin grup!`
+    return `🙅  පරිපාලකයින් සඳහා පමණයි!`
 }
 
 exports.nhFalse = () => {
-    return `Kode tidak valid!`
+    return `වැරදි කේතයක්!`
 }
 
 exports.listBlock = (blockNumber) => {
     return `*── 「 HALL OF SHAME 」 ──*
     
-Total diblokir: *${blockNumber.length}* user\n`
+අවහිර කරන ලද අංක: *${blockNumber.length}* user\n`
 }
 
 exports.notAdmin = () => {
-    return `❎ User bukan seorang admin! ❎`
+    return `❎ මොහු පරිපාලකයෙක් නොවේ ❎`
 }
 
 exports.adminAlready = () => {
-    return `❎ Tidak  dapat mem-promote user yang merupakan admin!`
+    return `❎ දැනටමත් පරිපාලකයෙකි ❎`
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan bot sebagai admin terlebih dahulu! 🙏`
+    return `කරුනිකර Bot පරිපාලකයෙකු කරන්න! 🙏`
 }
 
 exports.received = (pushname) => {
     return `
-Halo ${pushname}!
-Terima kasih telah melapor, laporanmu akan kami segera terima.`
+හලෝ ${pushname}!
+පැමිනිලි කලාට ස්තූතියි, ඔබගේ පැමිණිල්ල ලැබුනා.`
 }
 
 exports.videoLimit = () => {
-    return `Ukuran file terlalu besar!`
+    return `සීමාව ඉක්මවා ගොස් ඇත!`
 }
 
 exports.notNum = (q) => {
-    return `"${q}", bukan angka!`
+    return `"${q}", අංකයක් නොවේ!`
 }
-exports.menunya = (salam, pushname, botname) =>{
-	return`Hai kak ${pushname} 👋 selamat ${salam} , 
-saya ${botname}, bot ini adalah Beta Multi-Device Whatsapp. 
-Jika kamu menemukan semacam bug atau kesalahan mohon dimaklumi dulu ya, 
-lapor owner agar segera di perbaiki 🙏      
+exports.menunya = (pushname, botname) =>{
+	return`ආයුබෝවන් ${pushname} 👋 මම ${botname}, මෙය WhatsApp Multi device Bot කෙනෙක්,
+	මොකක්හරි අව්ලක් තියේනම් මට කියන්න මම ඒක හදන්නම්🙏      
 `
 }
-exports.listMenu = (time, salam, pushname, prefix) => {
-    return `*Selamat ${salam} ${pushname}*
+exports.listMenu = (time, pushname, prefix) => {
+    return `*හලෝ ${pushname}*
 *⌚Time Server : ${time}*
-*📚 List-Menu Alphabot-Md :*
+*📚 Buddhi-Md විධාන ලැයිස්තුව :*
 
 ╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
@@ -357,86 +355,6 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ ${prefix}poke
 ├ ${prefix}dance
 ╰❒ ${prefix}cringe
-
-╭─❒ 「 Nsfw & Sfw 」
-├ ${prefix}ahegao
-├ ${prefix}ass
-├ ${prefix}bdsm
-├ ${prefix}blowjob
-├ ${prefix}cuckold
-├ ${prefix}cum
-├ ${prefix}ero
-├ ${prefix}femdom
-├ ${prefix}foot
-├ ${prefix}gangbang
-├ ${prefix}glasses
-├ ${prefix}jahy
-├ ${prefix}manga
-├ ${prefix}masturbation
-├ ${prefix}neko
-├ ${prefix}orgy
-├ ${prefix}panties
-├ ${prefix}pussy
-├ ${prefix}tentacles
-├ ${prefix}thighs
-├ ${prefix}yuri
-├ ${prefix}feet
-├ ${prefix}lewdkemo
-├ ${prefix}woof
-├ ${prefix}gasm
-├ ${prefix}solo
-├ ${prefix}8ball
-├ ${prefix}goose
-├ ${prefix}avatar
-├ ${prefix}hololewd
-├ ${prefix}gecg
-├ ${prefix}holo
-├ ${prefix}fox_girl
-├ ${prefix}tits
-├ ${prefix}eroyuri
-├ ${prefix}holoyero
-├ ${prefix}lizard
-├ ${prefix}keta
-├ ${prefix}eron
-├ ${prefix}erok
-├ ${prefix}kemonomimi
-├ ${prefix}cum_jpg
-├ ${prefix}nsfw_avatar
-├ ${prefix}erofeet
-├ ${prefix}meow
-├ ${prefix}wallpaper
-├ ${prefix}waifu
-├ ${prefix}trap
-├ ${prefix}lewd
-├ ${prefix}pussy_jpg
-├ ${prefix}futanari
-├ ${prefix}lewdk
-├ ${prefix}solog
-├ ${prefix}smug
-├ ${prefix}cum
-├ ${prefix}slap
-├ ${prefix}les
-├ ${prefix}erokemo
-├ ${prefix}bj
-├ ${prefix}pwankg
-├ ${prefix}pat
-├ ${prefix}poke
-├ ${prefix}feed
-├ ${prefix}nsfw_neko_gif
-├ ${prefix}pussy
-├ ${prefix}feetg
-├ ${prefix}baka
-├ ${prefix}hug
-├ ${prefix}kiss
-├ ${prefix}tickle
-├ ${prefix}spank
-├ ${prefix}kuni
-├ ${prefix}classic
-├ ${prefix}boobs
-├ ${prefix}anal
-├ ${prefix}ngif
-├ ${prefix}cuddle
-╰❒ ${prefix}zettai
 
 ╭─❒ 「 Ephoto360 Menu 」
 ├ ${prefix}youtubegold
