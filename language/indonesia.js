@@ -86,11 +86,11 @@ exports.notNum = (q) => {
 }
 exports.menunya = (salam, pushname, botname) => {
 	return`ආයුබෝවන් ${pushname}, 
-	👋 මම ${botname}, මෙය WhatsApp Multi device Bot කෙනෙක්,
-	මොකක්හරි අව්ලක් තියේනම් මට කියන්න මම ඒක හදන්නම්🙏`
+	👋 මම ${botname}, 
+	මෙය WhatsApp Multi device Bot කෙනෙක්, පහල තියෙන List Command Button එකෙන් විධාන ලැයිස්තුව ලබාගන්න`
 }
-exports.listMenu = (time, salam, pushname, prefix) => {
-    return `*හලෝ ${pushname}*
+exports.listMenu = (time, salam, pushname, prefix) =>{
+    return `*👋Hi ${pushname}*
 *⌚Time Server : ${time}*
 *📚 Buddhi-Md විධාන ලැයිස්තුව :*
 
@@ -1036,89 +1036,6 @@ exports.ranime = (prefix) =>{
 ├ ${prefix}poke
 ├ ${prefix}dance
 ╰❒ ${prefix}cringe
-`
-}
-
-exports.nsfw = (prefix) =>{
-	return`╭─❒ 「 Nsfw & Sfw 」
-├ ${prefix}ahegao
-├ ${prefix}ass
-├ ${prefix}bdsm
-├ ${prefix}blowjob
-├ ${prefix}cuckold
-├ ${prefix}cum
-├ ${prefix}ero
-├ ${prefix}femdom
-├ ${prefix}foot
-├ ${prefix}gangbang
-├ ${prefix}glasses
-├ ${prefix}jahy
-├ ${prefix}manga
-├ ${prefix}masturbation
-├ ${prefix}neko
-├ ${prefix}orgy
-├ ${prefix}panties
-├ ${prefix}pussy
-├ ${prefix}tentacles
-├ ${prefix}thighs
-├ ${prefix}yuri
-├ ${prefix}feet
-├ ${prefix}lewdkemo
-├ ${prefix}woof
-├ ${prefix}gasm
-├ ${prefix}solo
-├ ${prefix}8ball
-├ ${prefix}goose
-├ ${prefix}avatar
-├ ${prefix}hololewd
-├ ${prefix}gecg
-├ ${prefix}holo
-├ ${prefix}fox_girl
-├ ${prefix}tits
-├ ${prefix}eroyuri
-├ ${prefix}holoyero
-├ ${prefix}lizard
-├ ${prefix}keta
-├ ${prefix}eron
-├ ${prefix}erok
-├ ${prefix}kemonomimi
-├ ${prefix}cum_jpg
-├ ${prefix}nsfw_avatar
-├ ${prefix}erofeet
-├ ${prefix}meow
-├ ${prefix}wallpaper
-├ ${prefix}waifu
-├ ${prefix}trap
-├ ${prefix}lewd
-├ ${prefix}pussy_jpg
-├ ${prefix}futanari
-├ ${prefix}lewdk
-├ ${prefix}solog
-├ ${prefix}smug
-├ ${prefix}cum
-├ ${prefix}slap
-├ ${prefix}les
-├ ${prefix}erokemo
-├ ${prefix}bj
-├ ${prefix}pwankg
-├ ${prefix}pat
-├ ${prefix}poke
-├ ${prefix}feed
-├ ${prefix}nsfw_neko_gif
-├ ${prefix}pussy
-├ ${prefix}feetg
-├ ${prefix}baka
-├ ${prefix}hug
-├ ${prefix}kiss
-├ ${prefix}tickle
-├ ${prefix}spank
-├ ${prefix}kuni
-├ ${prefix}classic
-├ ${prefix}boobs
-├ ${prefix}anal
-├ ${prefix}ngif
-├ ${prefix}cuddle
-╰❒ ${prefix}zettai
 `
 }
 
