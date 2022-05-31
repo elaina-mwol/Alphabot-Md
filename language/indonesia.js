@@ -85,9 +85,9 @@ exports.notNum = (q) => {
     return `"${q}", අංකයක් නොවේ!`
 }
 exports.menunya = (salam, pushname, botname) => {
-	return`ආයුබෝවන් ${pushname}, 
-	👋 මම ${botname}, 
-	මෙය WhatsApp Multi device Bot කෙනෙක්, පහල තියෙන List Command Button එකෙන් විධාන ලැයිස්තුව ලබාගන්න`
+	return`ආයුබෝවන් ${pushname}👋 
+මම ${botname} 
+මෙය WhatsApp Multi device Bot කෙනෙක්, පහල තියෙන List Command Button එකෙන් විධාන ලැයිස්තුව ලබාගන්න`
 }
 exports.listMenu = (time, salam, pushname, prefix) =>{
     return `*👋Hi ${pushname}*
@@ -751,7 +751,7 @@ Arigatou Gozaimasu! Untuk kalian user ramah dan Beberapa orang yg ikut membantu 
 `
 }
 exports.welcome = () =>{
-	return`𝖩𝖺𝗇𝗀𝖺𝗇 𝗅𝗎𝗉𝖺 𝗂𝗇𝗍𝗋𝗈 𝗄𝖺𝗄 🤗
+	return`Welcome 🤗
 	
 ╭ 𝖭𝖺𝗆𝖺 :
 ├ 𝖴𝗆𝗎𝗋 :
@@ -773,11 +773,6 @@ Recode : https://youtube.com/playlist?list=PLFCglBzFPHG7vSQaa9S3P8yfla_d9w-2-
 exports.tos = (ownernomer) => {
     return `
 *-------「 DONATE 」 -------*
-
-Hai kak ☺️ 
-Kalian bisa mendukung saya agar bot ini tetap up to date dengan cara donasi
-
-Berapapun donasi kalian akan sangat berarti 👍
 
 Thanks!
 
