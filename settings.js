@@ -19,7 +19,7 @@ global.autoread = false // auto read pesan / message
 
 // Other
 global.botname = "Vihanga - Md🥀" //namabot kalian
-global.ownername= "Vihanga Yt" //nama kalian
+global.ownername= "Vihanga - Md🥀" //nama kalian
 global.myweb ="https://youtube.com/c/VIHANGAYT0" //bebas asal jan hapus
 global.youtube = "https://youtube.com/c/VIHANGAYT0" //bebas asal jan hapus
 global.github = "https://vihangabot.github.io/" //bebas
